@@ -1,0 +1,67 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        .main-heading {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+
+        .bodycont {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .inputbhai, .datebhai, button {
+            padding: 10px;
+            margin: 0 5px;
+            font-size: 16px;
+        }
+
+        .paracontent {
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .paracontent div {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #fff;
+            display: flex;
+            align-items: center;
+        }
+
+        .paracontent div span {
+            flex-grow: 1;
+            margin-right: 10px;
+        }
+
+        button {
+            cursor: pointer;
+            background-color: #f44336;
+            color: white;
+            border: none;
+            border-radius: 3px;
+        }
+
+        button:hover {
+            background-color: #d32f2f;
+        }
+   
